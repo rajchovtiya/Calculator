@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+p{
+    font-size: 15px;
+}
+.hiro{
+    width: 100%;
+    padding: 14px 7%;
+    background-color: #f5f7fa;
+
+}
+.navconten{
+    width: 100%;
+    padding: 0px 2%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.logo img{
+    width: 130px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.butoon1{
+    color: green;
+    padding: 10px 24px;
+    text-decoration: none;
+}
+.butoon2{
+    background-color: green;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 7px;
+    text-decoration: none;
+
+ }
+ /* <!-- ------------nav is compliin end --> */
+.contenk{
+    width: 100%;
+    margin-top: 2%;
+    padding: 0px 4%;
+}
+.left-right{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left h1{
+    font-size: 5rem;
+}
+.left span{
+    color: green;
+}
+.left p{
+    padding: 10px 0px;
+    color: gray;
+}
+.left button{
+    width: 120px;
+    height: 45px;
+    background-color: green;
+  color: white;
+  border-radius: 7x;
+  border: none;
+  margin-top: 2%;
+}
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right img{
+    max-width: 550px;
+}
+/* <!-- --------sekdn2 --> */
+.hiro2{
+    padding: 0px 12%;
+    margin-top: 3%;
+}
+.pagelogo{
+    gap: 20px;
+}
+.pagetop{
+    text-align: center;
+    width: 100%;
+}
+.pagetop h2{
+    padding: 7px 0px;
+    font-size: 2rem;
+}
+.pageboutom{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.pageboutom img{
+    width: 80px;
+}
